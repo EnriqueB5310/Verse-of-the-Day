@@ -24,7 +24,7 @@ function App() {
         <h1>Bible Verse of the Day</h1>
         <div className="Verse-container">
           <p>{verse.text}</p>
-          <p>{verse.book} {verse.chapter}:{verse.verse}</p>
+          <p>{verse.reference}</p>
         </div>
       </header>
     </div>
